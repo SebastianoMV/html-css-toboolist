@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: lightgray;
+  background-color: #f6f8f9;
 }
 
 
@@ -15,7 +15,6 @@ header{
 }
 
 #logo{
-  display: inline;
   width: 70px;
   vertical-align: middle;
 }
@@ -28,43 +27,118 @@ header{
 .white{
   background-color: white;
 }
+.trasparent{
+  background-color: transparent;
+}
 
 
 /* MAIN */
 .container{
   width: 70%;
-  height: 70px;
   background-color: white;
   margin: auto;
   padding: 20px 50px;
 }
 
 .top{
-  
+  height: 70px;
   margin-top: 30px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+
 .bot{
-  
+  height: 80%;
   margin-top: 3px;
   margin-bottom: 30px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  
 }
 
 .add-button{
   padding: 10px;
   border-radius: 5px;
+  border-color: #f6f8f9;
 }
 
-.blue{
-  color: white;
-  background-color: #45abea;
-}
 
 .gray{
   color:#cdd2d6;
   background-color: white;
 }
+
+h2::before{
+  content: "\25BC";
+  font-size: small;
+}
+
+.righe{
+line-height: 20px;
+margin: 30px 0px;
+
+}
+
+.check{
+  display: inline-block;
+  color: #90d4c5;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #90d4c5;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+.cross{
+  display: inline-block;
+  color: #ec2411;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ec2411;;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+.color{
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 10px;
+  color: white;
+}
+
+.margin{
+  margin: 15px 0px;
+}
+
+/* LISTA TASK */
+.blue{
+  color: white;
+  background-color: #45abea;
+}
+
+.q1{
+  background-color: #9c72e4;
+}
+
+.recruiting{
+
+  background-color: #64c0a9;
+}
+
+.mobile{
+
+  background-color: #f29e33;
+}
+
+.website{
+
+  background-color: #d863a1;
+}
+
+.sales{
+  background-color: #b0c926;
+}
+/* FINE LISTA TASK */
